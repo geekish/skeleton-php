@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Geekish\Skeleton;
 
 use Illuminate\Support\ServiceProvider;
 

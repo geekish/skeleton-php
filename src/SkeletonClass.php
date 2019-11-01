@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Geekish\Skeleton;
 
 class SkeletonClass
 {
@@ -18,7 +18,7 @@ class SkeletonClass
      * @param string $phrase Phrase to return
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase($phrase)
+    public function echoPhrase(string $phrase) : string
     {
         return $phrase;
     }

@@ -1,17 +1,17 @@
 {
-    "name": "spatie/:package_name",
+    "name": "geekish/:package_name",
     "description": ":package_description",
     "keywords": [
-        "spatie",
+        "geekish",
         ":package_name"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/geekish/:package_name",
     "license": "MIT",
     "authors": [
         {
             "name": ":author_name",
             "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "homepage": "https://geeki.sh",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Geekish\\Skeleton\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Geekish\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -42,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Geekish\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Skeleton": "Geekish\\Skeleton\\SkeletonFacade"
             }
         }
     }
